@@ -1,0 +1,60 @@
+.contact{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.left{
+    width: 45%;
+    height: 550px;
+    background-color: #508de5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-image: url("https://img.freepik.com/free-vector/flying-slice-pizza-cartoon-vector-illustration-fast-food-concept-isolated-vector-flat-cartoon-style_138676-1934.jpg?w=2000"); */
+    background-size: cover;
+}
+.right{
+    width: 45%;
+    height: 550px;
+    background-color: #62a038;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+input,button, textarea{
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    /* border-radius: 20px; */
+    cursor: pointer;
+}
+input,textarea{
+    padding-left: 20px;
+}
+textarea{
+    color: gray;
+}
+button{
+    color: #fff;
+    font-weight: 600;
+    background-color: #924df9;
+}
+
+.contact h1, .contact h3{
+    color: #fff;
+    backdrop-filter: blur(10px);
+}
+.icon{
+    font-size: 35px;
+    color: #fff;
+    backdrop-filter: blur(10px);
+}
+.info{
+    color: #fff;
+    margin: 20px 50px;
+    backdrop-filter: blur(10px);
+    
+}

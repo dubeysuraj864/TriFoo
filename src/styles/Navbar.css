@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffa219;
+}
+ul {
+  display: flex;
+  margin: 0;
+}
+.logo{
+    color: #fff;
+    font-weight: 900;
+
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  margin: 10px;
+  color: #fff;
+}
+h6{
+  margin: 0;
+  padding: 10px;
+  color: #fff;
+  background-color: #ff6859;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
