@@ -6,7 +6,7 @@ function Navbar() {
     <>
       <h6>
         <MdLocalOffer /> &nbsp;
-        Free Home Delivery on Order Above 500/- Rupees
+        Free Home Delivery on Order Above $500/-
       </h6>
       <nav>
         <ul>
