@@ -62,3 +62,23 @@ button{
     backdrop-filter: blur(10px);
     
 }
+
+@media (max-width: 600px) {
+
+    .contact{
+        flex-direction: column-reverse;
+        position: relative;
+        margin-top: 0px;
+    }
+    .left, .right{
+   
+        width: 100%;
+    }
+    .contact form{
+        display: flex;
+        flex-direction: column;
+        padding: 0px 10px;
+    }
+ 
+
+}

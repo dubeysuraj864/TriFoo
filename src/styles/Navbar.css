@@ -1,17 +1,24 @@
 nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+position: relative;
   background-color: #ffa219;
+  padding: 20px;
+}
+nav input{
+  display: none;
+}
+.menu{
+  align-items: center;
 }
 ul {
   display: flex;
   margin: 0;
 }
-.logo{
-    color: #fff;
-    font-weight: 900;
-
+.logo {
+  color: #fff;
+  font-weight: 900;
 }
 li {
   list-style: none;
@@ -21,7 +28,7 @@ a {
   margin: 10px;
   color: #fff;
 }
-h6{
+h6 {
   margin: 0;
   padding: 10px;
   color: #fff;
@@ -29,4 +36,71 @@ h6{
   align-items: center;
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  nav {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0px;
+    z-index: 2;
+  
+  }
+  #toggle {
+    display: none;
+  }
+
+  .login-cart {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+  .logo {
+    font-size: 30px;
+    margin-left: 6vw;
+  
+  }
+  .menu {
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  }
+  .burger .line1,
+  .burger .line2,
+  .burger .line3 {
+    width: 35px;
+    height: 6px;
+    background-color: #fff;
+    margin: 5px 2px;
+    border-radius: 10px;
+  }
+  .burger{
+    position: absolute;
+    top: 1.8vh;
+    left:4vw;
+  }
+
+  .navlinks {
+    display: none;
+
+  }
+  .navlinks li{
+    margin: 10px;
+  }
+
+  #toggle:checked ~ .navlinks {
+    display: block;
+    background-color: #ffa219;
+     position: absolute;
+     top: 8vh;
+     left: 0px;
+     height: 20vh;
+     width: 100vw;
+     margin: 0;
+     padding: 0;
+     font-size: 20px;
+  }
+  #toggle:checked ~ .menu {
+    height: 50vh;
+  }
 }

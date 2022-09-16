@@ -11,3 +11,17 @@
 .tnc div {
     text-align: left;
 }
+@media (max-width: 600px) {
+
+    .tnc{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        padding-top: 10px;
+        
+    }
+    .tnc div{
+        margin: 0px 10px;
+    }
+
+}

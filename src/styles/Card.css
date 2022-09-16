@@ -58,3 +58,11 @@
     padding: 5px;
     font-family: sans;
 }
+
+@media (max-width: 600px) {
+
+    .card{
+        width: 350px;
+    }
+
+}
