@@ -1,0 +1,20 @@
+.login{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.login .left{
+    background-color: #ff4330;
+}
+.login .right{
+    background-color: #19a093;
+}
+.login h1, .login h3{
+    color: #fff;
+}
+.login button {
+ background-color: #5947ff;
+}
+.login form{
+    margin: 10px 10px;
+}

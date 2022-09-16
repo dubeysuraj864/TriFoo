@@ -8,6 +8,7 @@ import Tnc from "./pages/Tnc";
 import NoPage from "./pages/NoPage";
 import Login from "./pages/Login";
 import Cart from "./pages/Cart";
+
 function App() {
   return (
     <div className="App">

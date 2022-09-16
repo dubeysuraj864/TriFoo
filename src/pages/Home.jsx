@@ -1,8 +1,15 @@
-function Home() {
-    return ( 
+import React from "react";
+import Card from "../components/Card";
+import "../styles/Home.css";
 
+function Home() {
+
+    return ( 
         <>
-        Home
+        <div className="home">
+     
+        </div>
+        <Card  />
         </>
 
      );

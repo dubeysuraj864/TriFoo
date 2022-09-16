@@ -1,11 +1,12 @@
 .contact{
     display: flex;
     justify-content: center;
+    align-items:center;
     margin-top: 20px;
 }
 .left{
     width: 45%;
-    height: 550px;
+    height: 600px;
     background-color: #508de5;
     display: flex;
     flex-direction: column;
@@ -15,13 +16,16 @@
 }
 .right{
     width: 45%;
-    height: 550px;
+    height: 600px;
     background-color: #62a038;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 form{
     display: flex;
     flex-direction: column;
-    padding: 0px 50px;
+    padding: 0px 100px;
 }
 input,button, textarea{
     margin: 10px;
